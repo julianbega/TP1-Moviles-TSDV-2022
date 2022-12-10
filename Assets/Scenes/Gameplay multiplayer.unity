@@ -117012,7 +117012,7 @@ PrefabInstance:
     - target: {fileID: 114475702172432364, guid: b81b1a58a0f14c9439cbdd014e695f71,
         type: 3}
       propertyPath: InputAct
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114630957717379974, guid: b81b1a58a0f14c9439cbdd014e695f71,
         type: 3}
@@ -117716,7 +117716,7 @@ PrefabInstance:
     - target: {fileID: 114475702172432364, guid: b81b1a58a0f14c9439cbdd014e695f71,
         type: 3}
       propertyPath: InputAct
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114475702172432364, guid: b81b1a58a0f14c9439cbdd014e695f71,
         type: 3}
@@ -117982,6 +117982,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Joysitck
+      objectReference: {fileID: 0}
+    - target: {fileID: 183649624865455278, guid: f4b93a12c109ab3488c3ad62b94ad7b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 183649624865455279, guid: f4b93a12c109ab3488c3ad62b94ad7b1,
         type: 3}
@@ -119932,6 +119937,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Joysitck
+      objectReference: {fileID: 0}
+    - target: {fileID: 183649624865455278, guid: f4b93a12c109ab3488c3ad62b94ad7b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 183649624865455279, guid: f4b93a12c109ab3488c3ad62b94ad7b1,
         type: 3}

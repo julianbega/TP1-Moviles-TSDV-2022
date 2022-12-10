@@ -118532,6 +118532,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Joysitck
       objectReference: {fileID: 0}
+    - target: {fileID: 183649624865455278, guid: f4b93a12c109ab3488c3ad62b94ad7b1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 183649624865455279, guid: f4b93a12c109ab3488c3ad62b94ad7b1,
         type: 3}
       propertyPath: m_Pivot.x
