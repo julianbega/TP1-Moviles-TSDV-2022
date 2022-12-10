@@ -5,27 +5,19 @@ public class Player : MonoBehaviour
 {
 	public int Dinero = 0;
 	public int IdPlayer = 0;
-	
-	public Bolsa[] Bolasas;
-	int CantBolsAct = 0;
-	public string TagBolsas = "";
-	
-	public enum Estados{EnDescarga, EnConduccion, EnCalibracion, EnTutorial}
-	public Estados EstAct = Estados.EnConduccion;
-	
-	public bool EnConduccion = true;
-	public bool EnDescarga = false;
-	
-	public ControladorDeDescarga ContrDesc;
-	//public ContrCalibracion ContrCalib;
-	public ContrTutorial ContrTuto;
-	
+    public bool EnConduccion = true;
+    public bool EnDescarga = false;
+    public string TagBolsas = "";
+    public Bolsa[] Bolasas;
+    public ControladorDeDescarga ContrDesc;
+    public ContrTutorial ContrTuto;
+
+    int CantBolsAct = 0;
+    public enum Estados{EnDescarga, EnConduccion, EnCalibracion, EnTutorial}
+	public Estados EstAct = Estados.EnConduccion;	
 	Visualizacion MiVisualizacion;
+    [SerializeField] private UIGameplay uiGameplay;
 
-	[SerializeField] private UIGameplay uiGameplay;
-	//------------------------------------------------------------------//
-
-	// Use this for initialization
 	void Start () 
 	{
 		for(int i = 0; i< Bolasas.Length;i++)
@@ -34,15 +26,7 @@ public class Player : MonoBehaviour
 		MiVisualizacion = GetComponent<Visualizacion>();
 		uiGameplay = FindObjectOfType<UIGameplay>();
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
-	
-	//------------------------------------------------------------------//
-	
+
 	public bool AgregarBolsa(Bolsa b)
 	{
 		if(CantBolsAct + 1 <= Bolasas.Length)
